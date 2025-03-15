@@ -1,0 +1,118 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 15px;
+}
+.header-buttons a{
+    text-decoration: none;
+    color: white;
+}
+.try-ai-btn, .login-btn {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.try-ai-btn {
+    background-color: #ff4d6d;
+    color: #fff;
+}
+
+.login-btn {
+    background-color: #ff4d6d;
+    color: #fff;
+}
+
+/* Main Content Styles */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 50%;
+}
+
+.content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.content h2 span {
+    color: #ff4d6d;
+}
+
+.content p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Form Styles */
+.cta-form {
+    display: flex;
+    gap: 15px;
+}
+
+.cta-form input {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 250px;
+}
+
+.cta-form .start-btn {
+    padding: 16px 15px;
+    background-color: #ff4d6d;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Image Styles */
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.images img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}

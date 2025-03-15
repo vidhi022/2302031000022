@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    margin: 0%;
+}
+
+/* Header Styles */
+header {
+    background-color: #ff0000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 0;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.hero {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.hh {
+    font-size: 36px;
+    color: #000;
+    margin-top: 351px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 149px;
+}
+
+.phone-image {
+    margin-right: 20px;
+}
+
+.phone-image img {
+    width: 200px;
+    height: auto;
+}
+
+.phone-image p {
+    font-size: 12px;
+    color: #000;
+    text-align: left;
+
+}
+
+.text-box {
+    background-color: #ff0000;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+.text-box p {
+    margin: 0 0 10px 0;
+}
+
+.text-box ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.outfit-ideas {
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    margin-bottom: 20px;
+}
+
+.outfit-ideas img {
+    width: 168px;
+    height: auto;
+}
+
+button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000
